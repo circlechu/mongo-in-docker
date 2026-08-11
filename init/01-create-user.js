@@ -3,7 +3,7 @@
 db = db.getSiblingDB(process.env.MONGO_INITDB_DATABASE);
 
 db.createUser({
-  user: "formpf3_user",
-  pwd:  "changeme_app",
+  user: "formpf3",
+  pwd:  "formpf3#2026",
   roles: [{ role: "readWrite", db: process.env.MONGO_INITDB_DATABASE }]
 });
